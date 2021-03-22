@@ -1,0 +1,173 @@
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('police_P/raleway-regular-webfont.woff2') format('woff2'),
+         url('police_P/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {font-family: 'ralewaybold';
+    src: url('police_P/raleway-bold-webfont.woff2') format('woff2'),
+         url('police_P/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+body{font-family: "ralewaybold", "ralewayregular" ;
+}
+
+header{display:flex;
+    justify-content: space-between;
+}
+#LOGO img{width: 100px;
+margin-left: auto;
+}
+nav{width: 350px;
+    height: 45px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;}
+a:hover{
+    text-decoration: underline;
+    color:#0065FC;
+}
+
+ul{list-style-type: none;}
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;} 
+
+article{display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+
+#marker{color:black;
+    justify-content: center;
+    align-items: center;}
+#MARK{display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border:1px #F2F2F2 solid;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    }
+#ville{font-family: 'ralewaybold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border:1px #F2F2F2 solid;
+    width: auto;
+    height: 40px;
+    padding: 5 0 5 0;}
+#recherche{font-family: 'ralewayregular';
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    color: white ;
+    height: 31px;
+    padding: 5px 15px 5px 15px;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px;}
+    
+#info{color:#0065FC;
+    justify-content: center;
+    align-items: center;
+}
+#INFOS{display: flex ;
+    justify-content: center;
+    align-items: center;
+    border:1px #F2F2F2 solid;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#FILTRES{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: baseline;
+}
+#money{color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEEBFF;
+    border:1px #F2F2F2 solid;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px ;
+}
+
+.s-filtre{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    border:1px #F2F2F2 solid;
+    width: auto;
+    height: 30px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 15px ;
+    
+}
+
+aside{background-color:#F2F2F2;
+    border-radius: 20px;}
+
+.TITRE{font-family:"ralewaybold" ;
+    font-size: large ;}
+
+.SOUSTITRE{
+    font-family:"ralewayregular" ;
+    font-size: small ;}
+
+
+
+#section1{display: block;
+    width: 100%;}
+#SLOGAN{width: 100%;
+    margin-bottom: 10px;} 
+
+#LOCALISATION{width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    border-color: #F2F2F2;
+}
+
+#post{border:1px black solid;}
+#INFOS{ display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+
+
+
+.HEBERGE{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    justify-content: space-around;
+    width: 60%;
+}
+.item1 img{width:350px}
+.item2{display:flex;
+    flex-direction: row}
+.item2 img{width:200px}
+.item2 text{display: flex;
+    flex-direction: column;}
