@@ -1,3 +1,6 @@
-@media all and (max-width: 900px){
-/*nav{
-    flex-direction: column;}*/
+@media all and (max-width: 1024px)
+{
+    #FILTRES{flex-direction: column;
+        
+    }
+}
