@@ -24,19 +24,23 @@ header{display:flex;
 #LOGO img{width: 100px;
 margin-left: auto;
 }
-nav{width: 350px;
+nav{
+    width: 350px;
     height: 45px;
     display: flex;
     justify-content:space-around;
     align-items: center;
+
 }
-#inscrire{color:#0065FC}
+#inscrire{color:#0065FC
+}
 a:hover{
-    text-decoration: underline;
+    text-decoration: overline;
     color:#0065FC;
 }
 
-ul{list-style-type: none;
+ul{
+    list-style-type: none;
 }
 #section1{
     display: flex;
@@ -106,7 +110,8 @@ article{display: flex;
     border-radius: 20px ;
 }
 .txt-info{text-align: right;
-    padding: 5px 5px 5px 15px;}
+    padding: 5px 5px 5px 15px;
+}
 #INFOS{display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -190,19 +195,17 @@ article{display: flex;
 }
 
 aside{background-color:#F2F2F2;
-    border-radius: 20px;}
+    border-radius: 20px;
+}
 
 .TITRE{font-family:"ralewaybold" ;
-    font-size: large ;}
+    font-size: large ;
+}
 
 .SOUSTITRE{
     font-family:"ralewayregular" ;
-    font-size: small ;}
-
-
-
-
-    
+    font-size: small ;
+}
 
 #SLOGAN{width: 100%;
     margin-bottom: 10px;} 
