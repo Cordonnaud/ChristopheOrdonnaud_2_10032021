@@ -242,19 +242,20 @@ aside{
     background-color:#F2F2F2;
     border-radius: 20px;
     margin: 15px;
-  
+   
 }
-
-#Hébergement_à_Marseille{display: flex;
+#Hébergement_à_Marseille{
+    display: flex;
     flex-flow:row wrap;
-    justify-content: space-around ;
+    justify-content: space-around;
     background-color:black;
     border-radius: 20px;
     margin-top: 40px;
-    width:fit-content
+    width:fit-content;
    
 }
-.conteneur_etoile{display: flex;
+.conteneur_etoile{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: left;
@@ -271,8 +272,8 @@ aside{
 }
 
 .contain{width:300px;object-fit: contain;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
 }
 
 .item2{display:flex;
