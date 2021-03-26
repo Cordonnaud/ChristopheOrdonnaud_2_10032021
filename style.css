@@ -353,65 +353,62 @@ aside{
     justify-content: center;
     align-items: center;
 }
-#section3{padding-left: 20px;}
-.ACTIV{flex-wrap: nowrap ;
-    display: inline-grid;
-    max-width: 100%;
-    height:auto;
-    grid-template-columns:  350px 350px 350px 350px;
-    grid-template-rows: 50% 70% auto;
+#section3{
     padding-left: 20px;
+}
+.ACTIV{
+    flex-wrap: wrap ;
+    flex-direction: column;
+    display: flex;
+    max-width: 1440px;
+    height:500px;
+    justify-content: space-around;
 }
 .carte3{
     display: flex;
-    flex-flow:column nowrap;
-    justify-content: left;
+    flex-flow: column nowrap;
     background-color: white;
     border-radius: 20px;
-    max-width: min-content;
-    max-height: min-content;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px 1px grey ;
-}
-.image3{
-    max-width:auto;
-    max-height:390px;
+    width: 305px;
+    height: max-content;
+    box-shadow: 5px 5px 5px 1px grey;
+
 }
 .contain3{
-    width:345px;
-    height:max-content;
+    width:305px;
+    height:390px;
     object-fit:cover;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.text3{display: flex;
-    max-width:345px;
-    height:60px;
-    flex-direction: row;
-    text-align: left;
-    padding-left: 15px;
-}
-.image4{
- 
-    max-width:345px;
-    max-height:auto;
+.text3{
+    margin-left:20px;
+    width:360px;
+    height:50px;
 }
 .contain4{
-    width:345px;
-    height:max-content;
+    width:305px;
+    height:180px;
     object-fit:cover;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.text4{display: flex;
-    max-width:345px;
-    height:60px;
-    flex-direction: row;
-    text-align: left;
-    padding-left: 15px;
-} 
-#FOOTER{display: flex;
+.contain5{
+    width:305px;
+    height:120px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contain6{
+    width:305px;
+    height:150px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#FOOTER{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
