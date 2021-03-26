@@ -20,30 +20,20 @@ nav{
     align-items: center;
 
 }
-#Heb{
-    font-weight:normal;
-    color:0065FC;
+a{text-decoration: none;color: black
 }
-#Act{
-    font-weight:normal;
-    color:black;
+nav a:hover{font-size:x-large;
 }
-#insc{
-    font-weight:bold;
-    color:#0065FC;
- }
-a:hover{
-    text-decoration: overline;
+#Heb a{font-weight:normal;
     color:#0065FC;
 }
-a{
-    text-decoration: none
+#insc a {font-weight:bold;
+    color:#0065FC;
 }
-ul{
-    list-style-type: none;
+
+ul{list-style-type: none;
 }
-li{
-    list-style-type: none;
+li{list-style-type: none;
 }
 #section1{
     display: flex;
@@ -152,6 +142,9 @@ input{
     border-radius: 30px ;
 
 }
+.s-filtre:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150); 
+    background-color: #F2F2F2;
+}
 .txt-filtre{
     padding: 5px 10px 5px 10px;
     font-weight:bold;
@@ -216,34 +209,36 @@ input{
 }
 #section2{display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 30px;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    max-width:1440px;
-    justify-content: space-evenly;
+    flex-wrap: nowrap; 
+    width:1440px;
+    height: min-content;
+ 
+    margin: 0px  40px 0px 20px;
+    padding: 0px  0px 0px 0px;
 }
 article{display:flex;
-    flex-flow:column wrap;
+    flex-flow:column nowrap;
     background-color:#F2F2F2;
-    border-radius: 20px;
     max-width: 60%;
     min-width: min-content;
     height:auto;
-    padding-left: 20px;
-   
-  
+    border-radius: 20px;
+    margin: 0px  20px 0px 20px;
+    padding: 0px  20px 0px 0px;
+
+}
+#heb_titre{
+    margin: 0px  0px 0px 20px;
 }
 #Hébergements_à_Marseille{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: max-content;
     min-width: min-content;
     height:auto;
-    justify-content: space-between;
-    margin-left: 0px;
-    margin-right: 20px;
+    margin: 0px  20px 0px 20px;
+    padding: 0px  20px 0px 0px;
 }
 .carte1{display: flex;
     flex-flow:column wrap;
@@ -252,8 +247,7 @@ article{display:flex;
     border-radius: 20px;
     max-width: min-content;
     max-height: min-content;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 20px  20px 0px 0px;
     box-shadow: 5px 5px 5px 1px grey ;
 }
 .image1{border-radius: 20px ;
@@ -281,17 +275,18 @@ article{display:flex;
 }
 .lieu{
     font-weight: bold;
-max-width:210px;}
+    max-width:210px;
+}
 .carte2{
     display: flex;
     flex-direction:row;
-    justify-content: left;
     background-color: white;
     border-radius: 20px;
     width: 345px;
-    max-height: min-content;
-    margin-bottom: 20px;
-    box-shadow: 5px 5px 5px 1px grey ; 
+    max-height:min-content;
+    box-shadow: 5px 5px 5px 1px grey ;
+    margin: 0px  0px 0px 0px;
+
 }
 #Hot_le_soldumat{
     display:flex;
@@ -307,18 +302,21 @@ max-width:210px;}
 }
 .image2{
     border-radius: 20px ;
-    padding: 3px;
+    padding:3px;
     max-width:135px;
-    max-height:145px
+    height:145px
 }
 .contain2{
     width:135px;
     height:145px;
     object-fit:cover;
-    border-bottom-left-radius: 17px;
-    border-top-left-radius: 17px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    justify-content:space-around;
 }
-.text2{display: flex;
+
+.text2{
+    display: flex;
     max-width:210px;
     max-height:145px;
     flex-direction: column;
@@ -328,16 +326,16 @@ max-width:210px;}
 aside{
     display: flex;
     flex-flow:column wrap;
-    max-width: 30%;
-    min-width: max-content;
-    height:auto;
+    width: min-content;
+    height:initial;
     background-color:#F2F2F2;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right:20px;
+    margin:0px  20px 0px 20px;
+    padding: 0px  30px 0px 30px;
+    align-items:center;
     justify-content: space-around;
-    align-items:center;  
 }
+#Afficher{margin-left: 20px;}
 .titre{
     font-size:larger
 }
@@ -354,12 +352,12 @@ aside{
     align-items: center;
 }
 #section3{
-    padding-left: 20px;
+    padding-left: 0px;
 }
 .ACTIV{
+    display: flex;
     flex-wrap: wrap ;
     flex-direction: column;
-    display: flex;
     max-width: 1440px;
     height:500px;
     justify-content: space-around;
@@ -374,6 +372,10 @@ aside{
     box-shadow: 5px 5px 5px 1px grey;
 
 }
+.carte1:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)}
+.carte2:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)}
+.carte3:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)}
+
 .contain3{
     width:305px;
     height:390px;
@@ -408,11 +410,14 @@ aside{
     border-top-right-radius: 20px;
 }
 #FOOTER{
+    width: 1440px;
+    height:220px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    background-color: #F2F2F2;
     justify-content: space-around;
-    background-color: #F2F2F2;}
+}
 
-#FOOTER div{width: 350px}
+    
+
