@@ -1,4 +1,4 @@
-@media all and (max-width: 1024px)
+/*@media all and (max-width: 1024px)
 {
     #FILTRES{flex-direction: column;   
     }
@@ -23,4 +23,8 @@
         height:auto;
     }
     #section2:nth-child(1){
-        order:2;}
+        order:2;
+    }
+    .article{
+        min-width: min-content;
+    }*/

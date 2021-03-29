@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content:space-around;
     align-items: center; 
-    margin-top: 0px 40px 0px 0px; 
+    /*margin-top: 0px 40px 0px 0px; */
 
 }
 a{text-decoration: none;color: black
@@ -212,7 +212,7 @@ input{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    width:1440px;
+    max-width:1440px;
     justify-content: flex-start;
     margin: 0px  0px 0px 0px;
     padding: 0px  0px 0px 0px;}
@@ -220,14 +220,14 @@ input{
         display:flex;
         flex-flow:column nowrap;
         background-color:#F2F2F2;
-        max-width: 65%;
+        max-width: 60%;
         min-height: min-content;
         justify-content: space-evenly;
         border-radius: 20px;
-        margin: 0px  40px 0px 0px;
-        padding: 0px  0px 0px 0px;}
+        margin: 0px  0px 0px 0px;
+        padding: 0px  0px 0px 40px;}
         #heb_titre{
-            margin: 10px  0px 10px 20px;
+            margin: 10px  0px 10px 0px;
             padding: 0px  0px 0px 0px;
         }
         #Hébergements_à_Marseille{
@@ -235,9 +235,10 @@ input{
             flex-direction: row;
             flex-wrap: wrap;
             max-width: 100%;
-            justify-content:space-evenly;
+            min-width:330px;
             margin: 0px  0px 0px 0px;
-            padding: 0px  0px 0px 0px;}
+            padding: 0px  0px 0px 0px;
+        }
             .carte1{
                 display: flex;
                 flex-flow:column wrap;
@@ -280,7 +281,7 @@ input{
             
         }
         #Afficher{
-            margin: 0px  0px 0px 40px;
+            margin: 0px  0px 0px 0px;
     }
     aside{
         display: flex;
@@ -291,7 +292,7 @@ input{
         border-radius: 20px;
         justify-content: space-evenly;
         align-content:center;
-        margin:0px  0px 0px 0px;
+        margin:0px  0px 0px 40px;
         padding: 0px  30px 0px 30px;
 }
 .carte2{
