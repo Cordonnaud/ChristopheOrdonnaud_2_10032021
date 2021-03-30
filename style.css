@@ -1,25 +1,27 @@
 body{
     font-family: 'Raleway', sans-serif; ;
-    margin: 40px 40px 40px 40px;
+    padding: 0px 0px 0px 40px;
     max-width:1440px;
 }
-header{display:flex;
+header{
+    display:flex;
+    flex-direction: row;
     justify-content: space-between; 
-    margin: 20px 0px 20px 0px; 
- 
-}
-#LOGO img{width: 100px;
-margin-left: auto;
-}
-nav{
-    width: 350px;
-    height: 45px;
-    display: flex;
-    justify-content:space-around;
-    align-items: center; 
-    margin-top: 0px 40px 0px 0px;
-
-}
+    margin: 40px 0px 0px 0px;}
+    #LOGO img{
+        width: 100px;
+        margin-left: auto;}
+    nav{ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 350px;
+        height: 45px;
+        justify-content:space-between;
+        align-items: center; 
+        margin: 0px 40px 0px 0px;
+        padding: 0px 40px 0px 0px;
+    }
 a{text-decoration: none;color: black
 }
 nav a:hover{font-size:x-large;
@@ -34,7 +36,7 @@ nav a:hover{font-size:x-large;
 ul{list-style-type: none;
 }
 li{list-style-type: none;
-}
+}/* -----------------------------------------SECTION 1 ------------------------------*/
 #section1{
     display: flex;
     flex-direction: column;
@@ -114,7 +116,7 @@ input{
     align-items: center;
     width: auto;
     height: auto;
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0px 0px 0px;
     
 } 
 
@@ -207,7 +209,7 @@ input{
     border-color: #F2F2F2;
     margin-top: 0px 0px 0px 0px;
     padding: 0px 0px 10px 0px; 
-}
+}/* -----------------------------------------SECTION 2 ------------------------------------------*/
 #section2{
     display: flex;
     flex-direction: row;
@@ -215,203 +217,241 @@ input{
     max-width:1440px;
     justify-content: flex-start;
     margin: 0px  0px 0px 0px;
-    padding: 0px  0px 0px 0px;}
-    article{
-        display:flex;
-        flex-flow:column nowrap;
-        background-color:#F2F2F2;
-        max-width: 60%;
-        min-width: MIN-content;
-        min-height: min-content;
-        justify-content: space-evenly;
-        border-radius: 20px;
-        margin: 30px  0px 0px 0px;
-        padding: 0px  0px 0px 40px;}
-        #heb_titre{
-            margin: 10px  0px 10px 0px;
-            padding: 0px  0px 0px 0px;
-        }
-        #Hébergements_à_Marseille{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            max-width: 100%;
-            margin: 0px  0px 0px 0px;
-            padding: 0px  0px 0px 0px;
-        }
-            .carte1{
-                display: flex;
-                flex-flow:column wrap;
-                justify-content: left;
-                background-color: white;
-                border-radius: 20px;
-                width: 250px;
-                max-height: min-content;
-                margin: 0px  35px 30px 0px;
-                box-shadow: 5px 5px 5px 1px grey;}
-                .image1{
-                    border-radius: 20px ;
-                    padding: 3px;
-                    max-width:245px;
-                    max-height:120px
-                }
-                .contain1{
-                    width:245px;
-                    height:120px;
-                    object-fit:cover;
-                    border-top-right-radius: 17px;
-                    border-top-left-radius: 17px;
-                }
-                .text1{
-                    display: flex;
-                    max-width:245px;
-                    max-height:80px;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    margin: 10px  0px 10px 0px;
-                    padding: 0px 0px 0px 10px; 
-                }
-                .cotation{
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                }
-                .lieu{
-                    font-weight: bold;
-                    max-width:210px;
-            
-        }
-        #Afficher{
-            margin: 0px  0px 0px 0px;
-    }
-    aside{
-        display: flex;
-        flex-flow:column wrap;
-        width: 25%;
-        min-width: max-content;
-        background-color:#F2F2F2;
-        border-radius: 20px;
-        align-content:center;
-        margin:30px  50px 0px 40px;
-        padding: 0px  40px 0px 40px;}
-        #Les_plus_Populaires{
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-            align-items: center;
-            width: 300px;}
-            .titre{
-                align-self: flex-start;
-                font-size:larger}
-            #diag{
-                display: flex;
-                justify-content: center;
-                align-items: center;}
-        .carte2{
-            display: flex;
-            flex-direction:row;
-            background-color: white;
-            border-radius: 20px;
-            width: 345px;
-            max-height:min-content;
-            box-shadow: 5px 5px 5px 1px grey ;
-            margin: 0px  0px 30px 0px;}
-            .image2{
-                border-radius: 20px ;
-                padding:3px;
-                max-width:135px;
-                height:145px
-            }
-            .contain2{
-                width:135px;
-                height:145px;
-                object-fit:cover;
-                border-bottom-left-radius: 20px;
-                border-top-left-radius: 20px;
-                justify-content:space-around;
-            }
-            .text2{
-                display: flex;
-                max-width:210px;
-                max-height:145px;
-                flex-direction: column;
-                justify-content: space-around;
-                padding: 15px 20px 15px 10px;  
-            }
-            #Hot_le_soldumat{
-                display:flex;
-                flex-flow:row nowrap; 
-            }
-            #Au_coeur_2_lo{
-                display:flex;
-                flex-flow:row nowrap;
-            }
-            #Hot_bleu_blc{
-                display:flex;
-                flex-flow:row nowrap;
-    }
-    #section3{
-        padding-left: 0px;}
-        .ACTIV{
-            display: flex;
-            flex-wrap: wrap ;
-            flex-direction: column;
-            max-width: 1440px;
-            height:500px;
-            justify-content: space-around;}
-            .carte3{
-                display: flex;
-                flex-flow: column nowrap;
-                background-color: white;
-                border-radius: 20px;
-                width: 305px;
-                height: max-content;
-                box-shadow: 5px 5px 5px 1px grey;}
-                .contain3{
-                    width:305px;
-                    height:390px;
-                    object-fit:cover;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
-                }
-                .text3{
-                    margin-left:20px;
-                    width:360px;
-                    height:50px;
-                }
-                .contain4{
-                    width:305px;
-                    height:180px;
-                    object-fit:cover;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
-                }
-                .contain5{
-                    width:305px;
-                    height:120px;
-                    object-fit:cover;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
-                }
-                .contain6{
-                    width:305px;
-                    height:150px;
-                    object-fit:cover;
-                    border-top-left-radius: 20px;
-                    border-top-right-radius: 20px;
-    }
-    .carte1:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)}
-    .carte2:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)}
-    .carte3:hover{box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)
+    padding: 0px  0px 0px 0px;
 }
+article{
+    display:flex;
+    flex-flow:column nowrap;
+    background-color:#F2F2F2;
+    width: 60%;
+    min-width:min-content;
+    min-height: min-content;
+    align-content:center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 30px  40px 0px 0px;
+    padding: 0px  0px 0px 40px;
+}
+#heb_titre{
+    margin: 10px  0px 10px 0px;
+    padding: 0px  0px 0px 0px;
+}
+#Hébergements_à_Marseille{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width:min-content;
+    margin: 0px  0px 0px 0px;
+    padding: 0px  0px 0px 0px;
+}
+.carte1{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: left;
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    max-height: min-content;
+    margin: 0px  35px 30px 0px;
+    box-shadow: 5px 5px 5px 1px grey;
+}.image1{
+    border-radius: 20px ;
+    padding: 3px;
+    max-width:245px;
+    max-height:120px
+}
+.contain1{
+    width:245px;
+    height:120px;
+    object-fit:cover;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+}
+.text1{
+    display: flex;
+    max-width:245px;
+    max-height:80px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px  0px 10px 0px;
+    padding: 0px 0px 0px 10px; 
+}
+.cotation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.lieu{
+    font-weight: bold;
+    max-width:210px;
+}
+#Afficher{
+    margin: 0px  0px 0px 0px;
+}
+aside{
+    display: flex;
+    flex-flow:column wrap;
+    width: 25%;
+    min-width: max-content;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    align-content:center;
+    justify-content: space-between;
+    margin:30px  10px 0px 0px;
+    padding: 0px  40px 0px 40px;
+}
+#Les_plus_Populaires{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.titre{
+    align-self: flex-start;
+    font-size:larger
+}
+#diag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carte2{
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    border-radius: 20px;
+    width: 345px;
+    height: 145px;
+    box-shadow: 5px 5px 5px 1px grey ;
+    margin: 0px  0px 30px 0px;
+    padding: 3px;
+    justify-content:center;
+}
+.image2{
+    border-radius: 20px ;
+    padding:0px 0px 3px 0px ;
+    max-width:135px;
+    height:145px
+}
+.contain2{
+    width:135px;
+    height:145px;
+    object-fit:cover;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    justify-content:space-around;
+}
+.text2{
+    display: flex;
+    max-width:210px;
+    max-height:145px;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 20px 15px 10px;  
+}
+#Hot_le_soldumat{
+    display:flex;
+    flex-flow:row nowrap; 
+}
+#Au_coeur_2_lo{
+    display:flex;
+    flex-flow:row nowrap;
+}
+#Hot_bleu_blc{
+    display:flex;
+    flex-flow:row nowrap;
+}          
+/* -----------------------------------------SECTION 3 ------------------------------------------*/
+section{
+    margin: 30px 0px 0px 0px 0px;
+}
+#section3{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    max-width:1440px;
+    height:auto;
+    margin: 30px 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px 0px;
+}
+#Activités_à_Marseille{
+    margin: 0px 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px 0px;
+}
+.ACTIV{
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction: column;
+    max-width: 1440px ;
+    height: 550px;
+    justify-content:flex-start;
+}
+.carte3{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    border-radius: 20px;
+    width: 305px;
+    height: max-content;
+    margin: 0px 0px 20px 0px;
+    box-shadow: 5px 5px 5px 1px grey;
+}
+.contain3{
+    width:305px;
+    height:390px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text3{
+    margin-left:20px;
+    width:360px;
+    height:50px;
+
+}
+.contain4{
+    width:305px;
+    height:180px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+     
+}
+.contain5{
+    width:305px;
+    height:120px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contain6{
+    width:305px;
+    height:150px;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.carte1:hover{
+    box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)
+}
+.carte2:hover{
+    box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)
+}.carte3:hover{
+    box-shadow: 10px 10px 10px 2px rgb(150, 150, 150)
+}
+/* -----------------------------------------PIED DE PAGE ------------------------------------------*/
 #FOOTER{
-    width: 1440px;
-    height:220px;
+    max-width: 1440px;
+    height:auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #F2F2F2;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 40px 0px 0px -40px;
+    padding: 0px 350px  60px 40px;
 }
 
     
