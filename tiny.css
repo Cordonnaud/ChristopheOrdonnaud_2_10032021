@@ -8,41 +8,79 @@
     }
     header{display: flex;
         flex-direction:row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin: 0px 0px 0px 0px;
 
     }
     #LOGO
     {
     float:inline-start;
-    }*/
+    }
    nav{ 
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
-        width: 400px;
         height: 100px;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
         justify-content: space-between;
     }
+    #Heb{
+        margin-bottom: 3px;
+        border-bottom: #0065FC;
+    }
     #insc
-    {order: 2;
+    {
+        order: 2;
         
     }
-    /*#FILTRES{
+   #FILTRES{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         width: 500px;
         height: min-content;
-    }*/
+    }
 
     #SLOGAN{
         max-width: 420px;
         margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 20px 0px;
     }
+    #loupe{display: flex ;
+        justify-content: center;
+        align-items: center;
+        background-color: #0065FC;
+        border:1px #F2F2F2 solid;
+        width: 30px;
+        height: 31px;
+        padding: 5px;
+        border-top-right-radius: 15px ;
+        border-bottom-right-radius: 15px;
+    }
+    #ville{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border:1px #F2F2F2 solid;
+        width: auto;
+        height: 40px;
+        padding: 0 0 0 0;  
+    }
+
+    #recherche{ order:4;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        background-color: white ;
+        color: white ;
+        height: 31px;
+        padding: 5px 15px 5px 15px;
+        border-top-right-radius: 15px ;
+        border-bottom-right-radius: 15px;
+        font-weight:bold;}
+
     #txt-info{
        text-align: right;
         width: 300px;
@@ -105,6 +143,7 @@
     #FILTRES{
         flex-direction: column;
     }
+   
     #Hébergements_à_Marseille{
         display: flex;
         flex-direction: column;
@@ -113,7 +152,7 @@
         height:auto;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0px  20px 0px 20px;
+        margin: 0px  20px 0px 0px;
         padding: 0px  20px 0px 0px;
     }
     article{
@@ -131,19 +170,19 @@
         height: 200px;
         box-shadow: 5px 5px 5px 1px grey ;
         margin: 0px  0px 30px 0px;
+        padding: 3px  3px 3px 3px;
     }
-    }.image1{
+    .image1{
         border-radius: 20px ;
-        padding: 3px;
         max-width:245px;
         max-height:120px
     }
     .contain1{
-        width: 345px;
+        width: 341px;
         height:120px;
         object-fit:cover;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
     }
     .text1{
         display: flex;
@@ -165,6 +204,8 @@
         flex-wrap: wrap;
         max-width: min-content;
         height:auto;
+        margin: 0px  0px 0px 20px;
+    
     }
     #FOOTER{
         max-width: auto;
@@ -175,5 +216,5 @@
         background-color: #F2F2F2;
         justify-content: space-between;
         margin: 0px 0px 30px 0px;
-        padding: 0px 0px  0px 20px;
+        padding: 20px 0px  20px 30px;
     }
