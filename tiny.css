@@ -2,8 +2,13 @@
 {
     body
     {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /*justify-content: center;
+        align-items: center;*/
         font-family: 'Raleway', sans-serif; ;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 40px;
         max-width:445px;
     }
     header{display: flex;
@@ -25,6 +30,8 @@
         padding: 0px 0px 0px 0px;
         justify-content: space-between;
     }
+    #section1{margin: 0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;}
     #Heb{
         margin-bottom: 3px;
         border-bottom: #0065FC;
@@ -143,6 +150,12 @@
     #FILTRES{
         flex-direction: column;
     }
+    #Les_plus_Populaires{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;}
    
     #Hébergements_à_Marseille{
         display: flex;
@@ -152,14 +165,16 @@
         height:auto;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0px  20px 0px 0px;
-        padding: 0px  20px 0px 0px;
+        margin: 0px  20px 0px 40px;
+        padding: 0px  0px 0px 0px;
     }
     article{
+
         order:2;
         background-color: white;
+
         margin: 20px  0px 20px 0px;
-        padding: 0px  0px 0px 20px;
+        padding: 0px  0px 0px 0px;
     }
     .carte1{
         display: flex;
@@ -204,12 +219,12 @@
         flex-wrap: wrap;
         max-width: min-content;
         height:auto;
-        margin: 0px  0px 0px 20px;
+        margin: 0px  0px 0px 0px;
     
     }
     #FOOTER{
-        max-width: auto;
-        height:450px;
+        max-width: 420px;
+        height:auto;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

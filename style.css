@@ -224,7 +224,7 @@ input{
     flex-wrap: wrap; 
     max-width:1440px;
     justify-content: flex-start;
-    margin: 0px  0px 0px 0px;
+    margin: 0px  0px 40px 0px;
     padding: 0px  0px 0px 0px;
 }
 article{
@@ -385,8 +385,8 @@ section{
     padding: 30px 0px 0px 0px 0px;
 }
 #Activités_à_Marseille{
-    margin: 0px 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px 0px;
+    margin: 20px 0px 20px 0px 0px;
+    padding: 20px 0px 20px 0px 0px;
 }
 .ACTIV{
     display: flex;
@@ -458,7 +458,7 @@ section{
     flex-wrap: wrap;
     background-color: #F2F2F2;
     justify-content: space-between;
-    margin: 40px 0px 0px -40px;
+    margin: 0px 0px 0px -40px;
     padding: 0px 350px  60px 40px;
 }
 
