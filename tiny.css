@@ -157,7 +157,7 @@
         align-items: center;
         width: 350px;}
    
-    #Hébergements_à_Marseille{
+    #Hebergements_a_Marseille{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -169,11 +169,8 @@
         padding: 0px  0px 0px 0px;
     }
     article{
-
         order:2;
-        background-color: white;
-
-        margin: 20px  0px 20px 0px;
+        background-color: white;margin: 20px  0px 20px 0px;
         padding: 0px  0px 0px 0px;
     }
     .carte1{
