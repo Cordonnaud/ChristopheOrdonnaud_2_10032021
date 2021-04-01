@@ -1,4 +1,4 @@
-@media screen and (max-width: 1420px)
+/*@media screen and (max-width: 1420px)
 {
     body
     {
@@ -11,107 +11,148 @@
         
     }
 
-}
+}*/
 
 @media screen and (max-width: 480px)
 {
     body
-    {
+    {justify-content: center;
         display:flex;background-color: white;
         flex-direction: column;
         flex-wrap: wrap;
         font-family: 'Raleway', sans-serif; ;
-        padding: 0px 20px 0px 0px;
+        padding: 0px 0px 0px 0px;
         max-width:100%;
     }
     header{display: flex;
         flex-direction:row;
         flex-wrap: wrap;
-
         margin: 0px 0px 0px 0px;
+        padding: 0px 20px 0px 20px;
 
     }
-    #LOGO
-    {
-    float:inline-start;
+    #LOGO img{
+        width: 100px;
+     
+    }
+    #LOGO {display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        width: 50px;
     }
     nav{ 
         display: flex;
         flex-flow: row nowrap;
-        justify-content:flex-end;
+        justify-content:space-around;
         align-items: center;
         width: 20px;
         height: 45px;
-        margin: 0px 20px 0px 0px;
-        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 60px 0px 0px;
     }
+    #Heb1{
+        display: none;
+    }
+    #Heb1 a{
+        display: none;
+    }
+    #Act1{
+        display: none;
+    }
+    #Act1 a{
+        display: none;
+    }
+   
     #nav2{ 
         display: flex;
         flex-flow: row wrap;
-        width:100%;
-        justify-content:center;
+        width:480px;
+        height:50px;
+        justify-content:space-between;
         align-items: center;
     }
-    #Heb1{
-        color:white;
-    }
-    #Heb1 a,#Act1 a{
+    #Heb2{
+        display: flex;
+        flex-flow: row wrap;
         font-weight:normal;
-        color:white;
-        text-decoration-line: none;
-    }
-    /*#Heb2 a,#Act2 a{
-        font-weight:normal;
-        color:#0065FC;
-        height:10px; 
-        border-bottom: 3px #0065FC solid;   */
-    }
-    
-    #Heb2,#Act2{
-        font-weight:normal;
+        justify-content:center;    
+        align-items:center;
+        width: 50%;
+        height: 50px; 
+        border-bottom: 3px rgb(165, 164, 164) solid;
         color:black;
-        width:50%;
-        height:30px; 
-        border-bottom: 3px #c4c3c3 solid;
-        text-align: center; 
-        text-decoration-line: none;  
     }
-    #Heb2 a,#Act2 a{
-        font-weight:normal;
+    #Heb2 a{
         color:black;
-        text-decoration-line: none;
-        height: 30px;
-    }
-    #Heb2 a:hover,#Act2 a:hover{
         font-weight:normal;
-        color:#0065FC;
-        height:30px; 
+    }
+    #Heb2 :hover{
+        display: flex;
+        flex-flow: row wrap;
+        font-weight:normal;
+        justify-content:center;    
+        align-items:center;
+        width: 100%;
+        height: 50px; 
         border-bottom: 3px #0065FC solid;
-        text-decoration: none;
+        color:#0065FC;
     }
-    a{
+    #Act2{
+        display: flex;
+        flex-flow: row wrap;
+        font-weight:normal;
+        justify-content:center;    
+        width: 50%;
+        height: 50px;
+        align-items:center;
+        border-bottom: 3px rgb(165, 164, 164) solid;
+        color:black;
+    }
+    #Act2 a{
+        color:black;
+        font-weight:normal;
+    }
+    #Act2 :hover{
+        display: flex;
+        flex-flow: row wrap;
+        font-weight:normal;
+        justify-content:center;    
+        width: 100%;
+        height: 50px;
+        align-items:center;
+        color:#0065FC;
+        border-bottom: 3px #0065FC solid;
+    }
+    a
+    {
         text-decoration: none;color: black;
     }
     #insc a {
         font-weight:bold;
         color:#0065FC;
     }
-    
-    #section1{margin: 0px 0px 0px 0px;
-        padding: 0px 0px 10px 0px;
+    #Insc{
+        margin:0 40px 0 0;
     }
-   #FILTRES{
-        display: flex;
+    #SLOGAN{display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        width: 500px;
-        height: min-content;
-    }
-
-    #SLOGAN{
-        max-width: 420px;
+        flex-wrap: wrap;
+        font-size: larger ;
+        justify-content: center;
+        max-width: 100%;
         margin: 0px 0px 0px 0px;
-        padding: 0px 0px 20px 0px;
+        padding: 0px 20px 20px 20px;
+    }
+    .TITRE{
+        width: 100%;
+    }
+    .SOUSTITRE{
+        width: 100%;
+    }
+    #LOCALISATION{
+        font-size: larger;
+        width: 100%;
+        padding: 0px 20px 0px 20px;
     }
     #loupe{display: flex ;
         justify-content: center;
@@ -134,22 +175,39 @@
         height: 40px;
         padding: 0 0 0 0;  
     }
+    #recherche{ display: none;
+    }
+    #FILTRES{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+    .s-filtre{
+        margin:0 0 15px 0;
+    }
+    
+    #INFOS{font-size: large;
+        width:100%;
+        align-items:flex-start;
+        padding: 0px 20px 0px 20px;
+    }
+    #info{
+        font-size:0.5em;
+        width: 17px;
+        height: 17px;
+        padding: 0px;
+        border-radius: 17px ;
+    
+    }
 
-    #recherche{ order:4;
-        display: flex ;
-        justify-content: center;
-        align-items: center;
-        background-color: white ;
-        color: white ;
-        height: 31px;
-        padding: 5px 15px 5px 15px;
-        border-top-right-radius: 15px ;
-        border-bottom-right-radius: 15px;
-        font-weight:bold;}
-
-    #txt-info{
-       text-align: right;
-        width: 300px;
+    .txt-info
+    {
+        display:flex;
+        flex-flow: row wrap;
+        text-align: left;
+        width: 80%;
     }
     #section3{margin: 0px 0px 0px 40px;
         padding: 0px 0px 10px 0px;}
