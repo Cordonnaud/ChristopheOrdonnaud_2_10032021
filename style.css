@@ -7,18 +7,26 @@ body{display: flex;
 }
 header{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     width:100%;
-    height:50px;
-    justify-content: space-between; 
-
+    height:70px;
+    justify-content: space-between;
     margin: 0px 0px 0px 0px;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 #LOGO img{
-    width: 100px; 
+    width: 100px;
+ 
 }
-nav{ 
+#LOGO {display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    width: 100px;
+ 
+}
+ 
+
+nav{ align-self: flex-start;
     display: flex;
     flex-flow: row wrap;
     align-items:center;
@@ -49,7 +57,7 @@ nav{
     border-top: 3px #0065FC solid;
     width: auto;
     height: 50px;
-    align-items:flex-end;
+    align-items:center;
     padding: 0 20px 0 20px;
 }
 #Act1{
@@ -85,8 +93,7 @@ nav{
     align-items:center;
 }
 #Insc a{font-weight:bold;
-    color:#0065FC;
-    
+    color:#0065FC;   
 }
 #Insc :hover{display: flex;
     flex-flow: column wrap;
@@ -106,18 +113,16 @@ nav{
     height: 45px;
 
 }
-#Heb2 a,#Act2 a{font-weight:normal;
-    color:white;
-}
 #Heb2,#Act2{
     width:40%;
+    color:white;
+}
+#Heb2 a,#Act2 a{font-weight:normal;
     color:white;
 }
 a{
     text-decoration: none;color: black
 }
-
-
 ul{list-style-type: none;
 }
 li{list-style-type: none;
