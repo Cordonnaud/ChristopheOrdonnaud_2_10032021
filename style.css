@@ -9,10 +9,11 @@ header{
     display: flex;
     flex-flow: row wrap;
     width:100%;
+    height:50px;
     justify-content: space-between; 
-    align-items: center;
-    margin: 20px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 #LOGO img{
     width: 100px; 
@@ -20,24 +21,102 @@ header{
 nav{ 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    width: 350px;
+    align-items:center;
+    width: auto;
     height: 45px;
     margin: 0px 40px 0px 0px;
     padding: 0px 0px 0px 0px;
-}   
+}
+#Heb1{
+    display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;    
+    width: 160px;
+    height: 50px;
+    align-items:center;
+   
+}
+#Heb1 a{
+    font-weight:normal;
+}
+#Heb1 :hover{
+    display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;
+    color:#0065FC;
+    border-top: 3px #0065FC solid;
+    width: auto;
+    height: 50px;
+    align-items:flex-end;
+    padding: 0 20px 0 20px;
+}
+#Act1{
+    display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;    
+    width: 150px;
+    height: 50px;
+    align-items:center;
+}
+#Act1 a{
+    font-weight:normal;
+}
+#Act1 :hover{display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;
+    color:#0065FC;
+    border-top: 3px #0065FC solid;
+    width: auto;
+    height: 50px;
+    align-items:center;
+    padding: 0 20px 0 20px;
+}
+#Insc{
+    display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;    
+    width: 150px;
+    height: 50px;
+    align-items:center;
+}
+#Insc a{font-weight:bold;
+    color:#0065FC;
+    
+}
+#Insc :hover{display: flex;
+    flex-flow: column wrap;
+    font-weight:normal;
+    justify-content:flex-end;
+    color:#0065FC;
+    border-top: 3px #0065FC solid;
+    width: auto;
+    height: 50px;
+    align-items:center;
+    padding: 0 20px 0 20px;
+}
+#nav2{
+    display: flex;
+    flex-flow: row wrap;
+    width:100%;
+    height: 45px;
+
+}
+#Heb2 a,#Act2 a{font-weight:normal;
+    color:white;
+}
+#Heb2,#Act2{
+    width:40%;
+    color:white;
+}
 a{
     text-decoration: none;color: black
 }
-nav a:hover{
-    text-decoration-line:overline  ;
-}
-#Heb a{font-weight:normal;
-    color:#0065FC;
-}
-#insc a {font-weight:bold;
-    color:#0065FC;
-}
+
 
 ul{list-style-type: none;
 }

@@ -1,19 +1,33 @@
+@media screen and (max-width: 1420px)
+{
+    body
+    {
+        display:flex;background-color:lightblue;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: 'Raleway', sans-serif; ;
+        padding: 0px 20px 0px 20px;
+        min-width:100%;
+        
+    }
+
+}
+
 @media screen and (max-width: 480px)
 {
     body
     {
-        display:flex;
+        display:flex;background-color: white;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         font-family: 'Raleway', sans-serif; ;
-        padding: 0px 0px 0px 20px;
-        max-width:480px;
+        padding: 0px 20px 0px 0px;
+        max-width:100%;
     }
     header{display: flex;
         flex-direction:row;
         flex-wrap: wrap;
+
         margin: 0px 0px 0px 0px;
 
     }
@@ -21,25 +35,70 @@
     {
     float:inline-start;
     }
-   nav{ 
+    nav{ 
         display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        height: 100px;
-        margin: 0px 0px 0px 0px;
+        flex-flow: row nowrap;
+        justify-content:flex-end;
+        align-items: center;
+        width: 20px;
+        height: 45px;
+        margin: 0px 20px 0px 0px;
         padding: 0px 0px 0px 0px;
-        justify-content: space-between;
     }
+    #nav2{ 
+        display: flex;
+        flex-flow: row wrap;
+        width:100%;
+        justify-content:center;
+        align-items: center;
+    }
+    #Heb1{
+        color:white;
+    }
+    #Heb1 a,#Act1 a{
+        font-weight:normal;
+        color:white;
+        text-decoration-line: none;
+    }
+    /*#Heb2 a,#Act2 a{
+        font-weight:normal;
+        color:#0065FC;
+        height:10px; 
+        border-bottom: 3px #0065FC solid;   */
+    }
+    
+    #Heb2,#Act2{
+        font-weight:normal;
+        color:black;
+        width:50%;
+        height:30px; 
+        border-bottom: 3px #c4c3c3 solid;
+        text-align: center; 
+        text-decoration-line: none;  
+    }
+    #Heb2 a,#Act2 a{
+        font-weight:normal;
+        color:black;
+        text-decoration-line: none;
+        height: 30px;
+    }
+    #Heb2 a:hover,#Act2 a:hover{
+        font-weight:normal;
+        color:#0065FC;
+        height:30px; 
+        border-bottom: 3px #0065FC solid;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;color: black;
+    }
+    #insc a {
+        font-weight:bold;
+        color:#0065FC;
+    }
+    
     #section1{margin: 0px 0px 0px 0px;
-        padding: 0px 0px 10px 0px;}
-    #Heb{
-        margin-bottom: 3px;
-        border-bottom: #0065FC;
-    }
-    #insc
-    {
-        order: 2;
-        
+        padding: 0px 0px 10px 0px;
     }
    #FILTRES{
         display: flex;
