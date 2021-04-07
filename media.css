@@ -1,5 +1,6 @@
-/*@media screen and (min-width: 1370px)
-{body
+@media screen and (max-width: 1370px) and (min-width : 481px)
+{
+    body
     {
         display:flex;background-color:lightblue;
         flex-direction: column;
@@ -7,276 +8,279 @@
         padding: 0px 0px 0px 0px;
         max-width: 1370px;
         justify-content: center;
+    }
+    #section2{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width:100%;
+        justify-content: center;
+    }
+    aside{
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap; 
+        width:100%;
+        min-height:max-content;
+        background-color:#F2F2F2;
+        border-radius: 0px;
+        justify-content:space-between;
+        align-items: center;
+        padding: 20px 0px 20px 0px
+    } 
+    .titre{
+        display:flex;
+        width: 100px;
+        height: auto;
+        margin: 0px  20px 0px 0px;
+        padding: 0px  0px 0px 0px;
+        width: 100px;
+        height: auto;
+        margin: 0px  20px 0px 0px;
+        padding: 0px  0px 0px 0px;
+    }
+    #diag{
+        display:none;
+        margin: 0px  0px 0px 0px;
+    }
+ 
+    #Les_plus_Populaires{
+        display: flex;
+        flex-flow: row wrap;
+        width: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0 20px ;
+    }
+    
+    .carte2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: white;
+        border-radius: 20px;
+        width: 300px;
+        height: auto;
+        box-shadow: 5px 5px 5px 1px grey ;
+        margin: 0px  20px 0px 0px;
+        padding: 5px;
+        justify-content: space-between ;
+        justify-self: flex-end;
+    }
 
-        
+    .lieu{
+        min-width: max-content;
+    }
+
+    .image2{
+        border-radius: 20px ;
+        max-width:100%;
+        max-height:auto;
+    }
+
+    .contain2{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        border-radius: 15px ;
+    }
+    .text2{
+        display: flex;
+        width: auto;
+        height:auto;
+        align-self: flex-start;
+        margin: 0px  0px 0px 10px;
+        padding: 0px 0px 0px 0px; 
+    }
+    
+    .cotation2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-self: flex-end;
+    }
+
+    #Hot_le_soldumat{
+        width:100%;
+        display:flex;
+        flex-flow:row wrap; 
+    }#Au_coeur_2_lo{
+        width:100%;
+        display:flex;
+        flex-flow:row wrap;
+    }
+    #Hot_bleu_blc{
+        width:100%;
+        display:flex;
+        flex-flow:row wrap;
+    }
+    .text2 .cotation2{
+        align-self:flex-end;
+    }
+    article{
+        display: flex;
+        flex-flow:row wrap;
+        max-width: 100%;
+        width:100%;
+        height: auto;
+        background-color: none;
+        justify-content: center;
+        align-items: center;
+        margin: 20px  0px 0px 0px;
+        padding: 0px  0px 0px 0px;
+    }
+    #heb_titre{
+        display:flex;
+        width:100%;
+        justify-content: flex-start;
+        margin: 10px  0px 0px 20px;
+        padding: 0px  0px 0px 0px;
+    }
+    #Hebergements_a_Marseille{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height:auto;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px  20px 0px 20px;
+        padding: 0px  0px 20px 0px;
+        background-color: rgba(189, 189, 189, 0.61);
+        border-radius: 20px;
+    }
+    .carte1{
+        display: flex;
+        flex-flow: column wrap;
+        background-color: white;
+        border-radius: 20px;
+        width: 190px;
+        height: 200px;
+        box-shadow: 5px 5px 5px 1px grey ;
+        margin: 20px  0px 0px 0px;
+        padding: 3px  3px 3px 3px;
+        justify-content: space-between ;
+    }
+    .image1{
+        border-radius: 20px ;
+        max-width:100%;
+        max-height:200px
+    }
+    .contain1{
+        max-width:100%;
+        max-height:50%;
+        object-fit:cover;
+    }
+    .text1{
+        display: flex;
+        max-width:100%;
+        max-height:200px;
+        justify-content: space-evenly;
+        align-self: flex-end;
+        margin: 0px  0px 10px 0px;
+        padding: 0px 0px 0px 0px; 
+    }
+    #Aub_Cann{
+        display: flex;
+        flex-direction: column;
+        height:300px;
+        justify-content: space-between;
+    }
+    #Afficher{
+        display: flex;
+        width:100%;
+        justify-content: flex-start;
+        margin: 0px  0px 0px 20px;
+    }
+    #section3{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
+    }
+    #Activites_a_Marseille{
+        font-size: larger;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 10px 20px;
+    }
+    .ACTIV{
+        display: flex;
+        flex-wrap:nowrap ;
+        flex-direction: column;
+        width:100%;
+        height: auto;
+        justify-content:center;
+        align-items: flex-start;
+    }
+    .carte3{
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        box-shadow: 5px 5px 5px 1px grey ;
+        margin: 0px  20px 20px 20px;
+    }
+    .contain3{
+        width: 100%;
+        height:120px;
+        object-fit:cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .text3{
+        font-size: 1em;
+        margin-left:20px;
+        width: auto;
+        height:50px;
+    }
+    .contain4{
+        width: 100%;
+        height:120px;
+        object-fit:cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .contain5{
+        width: 100%;
+        height:120px;
+        object-fit:cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .contain6{
+        width: 100%;
+        height:120px;
+        object-fit:cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    #FOOTER{
+        font-size:1.3em;
+        max-width: auto;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: #F2F2F2;
+        justify-content: space-between;
+        margin: 0px 0px 30px 0px;
+        padding: 20px 0px  20px 30px;
     }
 }
-#section2{align-self: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width:100%;
-    justify-content: center;
-  
-}
-aside{ 
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; 
-    width:100%;
-    min-height:max-content;
-    background-color:#F2F2F2;
-    border-radius: 0px;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px 0px 20px 0px
-}
-.titre{display:flex;
-    width: 100px;
-    height: auto;
-    margin: 0px  20px 0px 0px;
-    padding: 0px  0px 0px 0px;
-   
-}
-#diag{display:none;
-    margin: 0px  0px 0px 0px;
 
 
-}
-
- #Les_plus_Populaires{
-    display: flex;
-    flex-flow: row wrap;
-    width: auto;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 0 0 20px ;
-}
-.carte2{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: white;
-    border-radius: 20px;
-    width: 300px;
-    height: auto;
-    box-shadow: 5px 5px 5px 1px grey ;
-    margin: 0px  20px 0px 0px;
-    padding: 5px;
-    justify-content: space-between ;
-    justify-self: flex-end;
-}
-.lieu{
-    min-width: max-content;
-}
-.image2{
-    border-radius: 20px ;
-    max-width:100%;
-    max-height:auto;
-}
-.contain2{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    border-radius: 15px ;
-}
-.text2{
-    display: flex;
-    width: auto;
-    height:auto;
-    align-self: flex-start;
-    margin: 0px  0px 0px 10px;
-    padding: 0px 0px 0px 0px; }
-
-.cotation2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-self: flex-end;
-    
-}
-#Hot_le_soldumat{
-    width:100%;
-    display:flex;
-    flex-flow:row wrap; 
-}
-#Au_coeur_2_lo{
-    width:100%;
-    display:flex;
-    flex-flow:row wrap;
-}
-#Hot_bleu_blc{
-    width:100%;
-    display:flex;
-    flex-flow:row wrap;
-}          
-
-.text2 .cotation2{align-self:flex-end;
-}
-article{
-    display: flex;
-    flex-flow:row wrap;
-    max-width: 100%;
-    width:100%;
-    height: auto;
-    background-color: none;
-    justify-content: center;
-    align-items: center;
-    margin: 20px  0px 0px 0px;
-    padding: 0px  0px 0px 0px;
-}
-
-#heb_titre{
-    display:flex;
-    width:100%;
-    justify-content: flex-start;
-    margin: 10px  0px 0px 20px;
-    padding: 0px  0px 0px 0px;
-}
 
 
-#Hebergements_a_Marseille{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height:auto;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px  20px 0px 20px;
-    padding: 0px  0px 20px 0px;
-    background-color: rgba(189, 189, 189, 0.61);
-    border-radius: 20px;
-}
-
-.carte1{
-    display: flex;
-    flex-flow: column wrap;
-    background-color: white;
-    border-radius: 20px;
-    width: 190px;
-    height: 200px;
-    box-shadow: 5px 5px 5px 1px grey ;
-    margin: 20px  0px 0px 0px;
-    padding: 3px  3px 3px 3px;
-    justify-content: space-between ;
-}
-.image1{
-    border-radius: 20px ;
-    max-width:100%;
-    max-height:200px
-}
-.contain1{
-    max-width:100%;
-    max-height:50%;
-    object-fit:cover;
-}
-.text1{
-    display: flex;
-    max-width:100%;
-    max-height:200px;
-    justify-content: space-evenly;
-    align-self: flex-end;
-    margin: 0px  0px 10px 0px;
-    padding: 0px 0px 0px 0px; 
-}
-#Aub_Cann{
-    display: flex;
-    flex-direction: column;
-    height:300px;
-    justify-content: space-between;
-}
-#Afficher{
-    display: flex;
-    width:100%;
-    justify-content: flex-start;
-    margin: 0px  0px 0px 20px;
-}
-#section3{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 10px 0px;
-}
-#Activites_a_Marseille{
-    font-size: larger;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 10px 20px;
-}
-.ACTIV{
-    display: flex;
-    flex-wrap:nowrap ;
-    flex-direction: column;
-    width:100%;
-    height: auto;
-    justify-content:center;
-    align-items: flex-start;
-}
-.carte3{
-    display: flex;
-    flex-flow: column nowrap;
-    background-color: white;
-    border-radius: 20px;
-    width: auto;
-    height: auto;
-    box-shadow: 5px 5px 5px 1px grey ;
-    margin: 0px  20px 20px 20px;
-}
-.contain3{
-    width: 100%;
-    height:120px;
-    object-fit:cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.text3{
-    font-size: 1em;
-    margin-left:20px;
-    width: auto;
-    height:50px;
-}
-.contain4{
-    width: 100%;
-    height:120px;
-    object-fit:cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.contain5{
-    width: 100%;
-    height:120px;
-    object-fit:cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.contain6{
-    width: 100%;
-    height:120px;
-    object-fit:cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
-}
 
 
-#FOOTER{
-    font-size:1.3em;
-    max-width: auto;
-    height:auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: #F2F2F2;
-    justify-content: space-between;
-    margin: 0px 0px 30px 0px;
-    padding: 20px 0px  20px 30px;
-
-}
 
 
-*/
+
 @media screen and (max-width: 480px) and (min-width: 375px)
 {
     body

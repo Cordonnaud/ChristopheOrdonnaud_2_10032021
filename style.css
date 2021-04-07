@@ -312,8 +312,8 @@ article{
     flex-flow:column nowrap;
     background-color:#F2F2F2;
     width: 64%;
-    min-width: 310px;
-    max-width: 880px;
+    min-width: min-content;
+    max-width: auto;
     min-height: min-content;
     align-content:center;
     justify-content: center;
