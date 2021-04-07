@@ -1,24 +1,26 @@
-/*@media screen and (max-width: 1420px)
+/*@media screen and (min-width: 1370px)
 {body
     {
         display:flex;background-color:lightblue;
         flex-direction: column;
         flex-wrap: wrap;
         padding: 0px 0px 0px 0px;
-        max-width: 1420px;
+        max-width: 1370px;
         justify-content: center;
 
         
     }
 }
-#section2{
+#section2{align-self: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width:100%;
+    justify-content: center;
   
 }
 aside{ 
+    align-self: center;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
@@ -42,9 +44,7 @@ aside{
 
 
 }
-.espace{
-    display:none;
-}
+
  #Les_plus_Populaires{
     display: flex;
     flex-flow: row wrap;
@@ -95,22 +95,26 @@ aside{
     flex-direction: row;
     align-self: flex-end;
     
-}#Hot_le_soldumat{
+}
+#Hot_le_soldumat{
+    width:100%;
     display:flex;
-    flex-flow:column wrap; 
+    flex-flow:row wrap; 
 }
 #Au_coeur_2_lo{
+    width:100%;
     display:flex;
-    flex-flow:column wrap;
+    flex-flow:row wrap;
 }
 #Hot_bleu_blc{
+    width:100%;
     display:flex;
-    flex-flow:column wrap;
+    flex-flow:row wrap;
 }          
 
-/*.text2 .cotation2{align-self:flex-end;
-}*/
-/*article{
+.text2 .cotation2{align-self:flex-end;
+}
+article{
     display: flex;
     flex-flow:row wrap;
     max-width: 100%;
@@ -269,8 +273,10 @@ aside{
     margin: 0px 0px 30px 0px;
     padding: 20px 0px  20px 30px;
 
-}*/
+}
 
+
+*/
 @media screen and (max-width: 480px) and (min-width: 375px)
 {
     body
@@ -280,7 +286,7 @@ aside{
         flex-wrap: wrap;
         max-width: 480px;
         min-width: 375px;
-        justify-content:flex-start;
+        justify-content:center;
         align-items: flex-start;
         background-color: white;
         padding: 0px;
@@ -401,12 +407,13 @@ aside{
     #Insc{
         margin:0 40px 0 0;
     }
+   
     #SLOGAN{display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         
     }
     .TITRE
@@ -414,22 +421,27 @@ aside{
         width: 100%;
         font-size: larger ;
         padding: 0px 20px 0px 20px;
+        align-self: center;
+        text-align: center;
     }
     .SOUSTITRE{
         max-width: 100%;
         font-size: larger ;
         padding: 0px 20px 0px 20px;
         min-width: min-content;
+        align-self: center;
+        text-align: center;
     }
     #LOCALISATION{
-        width: min-content;
-        max-width: 370px;
-        height:min-content;
+        align-self: center;
+        max-width: 90%;height:min-content;
         padding: 0px 0px 0px 0px;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 30px 10px -20px;
         border: 1px #F2F2F2 solid;
         border-radius: 15px;
+        justify-content: space-between;
     }
+
     #loupe{display: flex ;
         justify-content: center;
         align-items: center;
@@ -446,15 +458,23 @@ aside{
         align-items: center;
         background-color: white;
         border: none;
-        width: auto;
+        max-width: 60%;
         height: 40px;
     
+    }
+    .rech{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:min-content;
+
     }
     form{
         width: min-content;
     }
     input{
         width: min-content;
+        padding: 0px;
     }
     #recherche{ display: none;
     }
@@ -491,6 +511,8 @@ aside{
         flex-flow: row wrap;
         text-align: left;
         width: 80%;
+        align-self: center;
+        text-align: center;
     }
     #section2{
         display: flex;
@@ -499,20 +521,20 @@ aside{
         width:100%;
       
     }
-    aside{ 
+    aside{
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        max-width: 100%;
-        min-width: min-content;
+        flex-flow: row wrap;
+        min-width: 100%; 
         height:auto;
         order:1;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px 0 0px;
+        margin: 20px  0 0 0; 
         background-color:#F2F2F2;
         border-radius: 0px;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0 20px 0 20px
     }
+
     .titre{
         margin: 0px  0px 0px 0px;
         padding: 0px  0px 0px 0px;
@@ -527,6 +549,7 @@ aside{
         width: 100%;
         justify-content: space-between;
         align-items: center;
+        margin: 0 20px;
     }
     .carte2{
         display: flex;
@@ -538,9 +561,9 @@ aside{
         width: 100%;
         height: 145px;
         box-shadow: 4px 4px 5px 1px rgb(170, 170, 170);
-        margin: 0px  0px 20px 0px;
+        margin: 0px  20px 20px 20px;
         padding: 5px;  
-        align-items: flex-start;
+        align-items: center;
         
        
     }
@@ -565,11 +588,17 @@ aside{
     .text2{
         display: flex;
         flex-direction: column;
-        flex-wrap:nowrap;
+        flex-wrap:wrap; 
+        width: 60%;
         max-width:auto;
         height:fit-content;
         align-items:flex-start;
         padding: 20px 0 15px 20px;  
+        display: flex;
+        text-align: left;
+    
+    
+   
     }
     
     .cotation2{
@@ -585,7 +614,8 @@ aside{
     
    .text2 .cotation2{align-self:flex-end;
     }
-    article{display: flex;
+    article{
+        display: flex;
         width: 100%;
         order:2;
         background-color: white;
