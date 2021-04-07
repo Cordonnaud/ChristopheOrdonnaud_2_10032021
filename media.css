@@ -2,13 +2,158 @@
 {
     body
     {
-        display:flex;background-color:lightblue;
+        display:flex;background-color:white;
         flex-direction: column;
         flex-wrap: wrap;
         padding: 0px 0px 0px 0px;
         max-width: 1370px;
         justify-content: center;
     }
+    nav{ 
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row wrap;
+        align-items:right;
+        width: 80%;
+        height: auto;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #Heb1{
+        display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;    
+        width: 120px;
+        height: 50px;
+        align-items:center;  
+    }
+    #Heb1 a{
+        font-weight:normal;
+    }
+    #Heb1 :hover{
+        display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;
+        color:#0065FC;
+        border-top: 3px #0065FC solid;
+        width: auto;
+        height: 50px;
+        align-items:center;
+        padding: 0 0px 0 0px;
+    }
+    #Act1{
+        display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;    
+        width: 100px;
+        height: 50px;
+        align-items:center;
+    }
+    #Act1 a{
+        font-weight:normal;
+    }
+    #Act1 :hover{display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;
+        color:#0065FC;
+        border-top: 3px #0065FC solid;
+        width: auto;
+        height: 50px;
+        align-items:center;
+        padding: 0 0px 0 0px;
+    }
+    #Insc{
+        display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;    
+        width: 100px;
+        height: 50px;
+        align-items:center;
+    }
+    #Insc a{font-weight:bold;
+        color:#0065FC;   
+    }
+    #Insc :hover{display: flex;
+        flex-flow: column wrap;
+        font-weight:normal;
+        justify-content:flex-end;
+        color:#0065FC;
+        border-top: 3px #0065FC solid;
+        width: auto;
+        height: 50px;
+        align-items:center;
+        padding: 0 0px 0 0px;
+    }
+    #SLOGAN{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+        padding: 0px 0px 10px 0px;
+    }
+    .TITRE
+    {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+        font-size: larger ;
+        padding: 0px 20px 0px 0px;
+        text-align: center;
+    }
+    .SOUSTITRE{
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        max-width: 100%;
+        font-size: larger ;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+    }
+    
+    #LOCALISATION{
+        align-self:center;
+        width: 500px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 5px;
+        border-color: #F2F2F2;
+        padding: 20px 0px 20px 0px; 
+    }
+    #FILTRES{display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: baseline;
+        max-width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+    #INFOS{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 30px 0px 30px 0
+    }
+    #info{color:#0065FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px #F2F2F2 solid;
+        background-color: #DEEBFF;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        border-radius: 0px ;}
+
     #section2{
         align-self: center;
         display: flex;
@@ -20,15 +165,16 @@
     aside{
         align-self: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: nowrap; 
         width:100%;
-        min-height:max-content;
-        background-color:#F2F2F2;
+        height: auto;
+        background-color:white;
         border-radius: 0px;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items: center;
-        padding: 20px 0px 20px 0px
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0 30px 0;
     } 
     .titre{
         display:flex;
@@ -47,12 +193,34 @@
     }
  
     #Les_plus_Populaires{
-        display: flex;
-        flex-flow: row wrap;
-        width: auto;
+        display: none;
+        flex-flow: column nowrap;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
         margin: 0 0 0 20px ;
+    }
+    #titre_les_popu{
+        display: flex;
+        font-size: 1.8em; 
+        justify-content: center;
+        align-self: center;
+        border-bottom: 2px  #0065FC solid;
+        border-top: 2px  #0065FC solid;
+        margin: 10px  0px 30px 0px;
+        padding: 20px  0px 20px 0px;
+        width: 100%;
+    
+    }
+    .titre{
+        width:100%;
+        justify-content: center;
+        align-self: center;
+        font-size:1.5em;
+    }
+    #diag{
+        display: none;
+
     }
     
     .carte2{
@@ -61,17 +229,17 @@
         flex-wrap: nowrap;
         background-color: white;
         border-radius: 20px;
-        width: 300px;
+        width: 450px;
         height: auto;
         box-shadow: 5px 5px 5px 1px grey ;
-        margin: 0px  20px 0px 0px;
+        margin: 0px  20px 20px 0px;
         padding: 5px;
         justify-content: space-between ;
-        justify-self: flex-end;
+        justify-self:center;
     }
 
     .lieu{
-        min-width: max-content;
+        min-width: min-content;
     }
 
     .image2{
@@ -87,12 +255,16 @@
         border-radius: 15px ;
     }
     .text2{
+        font-size: 1.2em;
         display: flex;
         width: auto;
         height:auto;
-        align-self: flex-start;
+        align-self: center;
         margin: 0px  0px 0px 10px;
         padding: 0px 0px 0px 0px; 
+    }
+    .espace, .espace1{
+        display: none;
     }
     
     .cotation2{
@@ -125,18 +297,26 @@
         max-width: 100%;
         width:100%;
         height: auto;
-        background-color: none;
         justify-content: center;
         align-items: center;
-        margin: 20px  0px 0px 0px;
+        margin: 0px  0px 0px 0px;
         padding: 0px  0px 0px 0px;
+        background-color:#d3d3d3;
+        border-radius: 0px;
+
     }
     #heb_titre{
+        font-size: 1.2em;
         display:flex;
         width:100%;
-        justify-content: flex-start;
-        margin: 10px  0px 0px 20px;
+        justify-content: center;
+        margin:30px  0px 30px 0px;
         padding: 0px  0px 0px 0px;
+        align-self: center;
+        border-bottom: 2px  #0065FC solid;
+        border-top: 2px  #0065FC solid;
+       
+        
     }
     #Hebergements_a_Marseille{
         display: flex;
@@ -148,8 +328,8 @@
         align-items: center;
         margin: 0px  20px 0px 20px;
         padding: 0px  0px 20px 0px;
-        background-color: rgba(189, 189, 189, 0.61);
-        border-radius: 20px;
+        background-color: none;
+        border-radius: none;
     }
     .carte1{
         display: flex;
@@ -197,30 +377,39 @@
     #section3{
         display:flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 10px 0px;
+        background-color:#bebebe;
     }
     #Activites_a_Marseille{
-        font-size: larger;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 10px 20px;
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        align-self: center;
+        border-bottom: 2px  #0065FC solid;
+        border-top: 2px  #0065FC solid;
+        font-size: 1.2em;
+        margin: 30px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .ACTIV{
         display: flex;
-        flex-wrap:nowrap ;
+        flex-wrap:wrap ;
         flex-direction: column;
         width:100%;
-        height: auto;
+        height: 700px;
         justify-content:center;
-        align-items: flex-start;
+        align-items: center;
+        
+        
     }
     .carte3{
         display: flex;
         flex-flow: column nowrap;
         background-color: white;
         border-radius: 20px;
-        width: auto;
+        width: 40%;
         height: auto;
         box-shadow: 5px 5px 5px 1px grey ;
         margin: 0px  20px 20px 20px;
@@ -750,8 +939,6 @@
         border-top-right-radius: 20px;
         
     }
-    
-   
     #FOOTER{
         font-size:1.3em;
         max-width: 420px;
