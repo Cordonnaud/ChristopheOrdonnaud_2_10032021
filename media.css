@@ -10,7 +10,7 @@
 
         
     }
-}
+}/*
 #section2{
     display: flex;
     flex-direction: column;
@@ -110,7 +110,7 @@ aside{
 
 /*.text2 .cotation2{align-self:flex-end;
 }*/
-article{
+/*article{
     display: flex;
     flex-flow:row wrap;
     max-width: 100%;
@@ -269,7 +269,7 @@ article{
     margin: 0px 0px 30px 0px;
     padding: 20px 0px  20px 30px;
 
-}
+}*/
 
 @media screen and (max-width: 480px) and (min-width: 375px)
 {
@@ -284,7 +284,7 @@ article{
         align-items: flex-start;
         background-color: white;
         padding: 0px;
-        margin:  0 0px 0 0px;
+        margin:  10px 0px 0 0px;
 
     }
     header{
@@ -422,41 +422,43 @@ article{
         min-width: min-content;
     }
     #LOCALISATION{
-      
-        max-width: 100%;
+        width: min-content;
+        height:min-content;
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 20px;
+        border: 1px #F2F2F2 solid;
+        border-radius: 15px;
     }
     #loupe{display: flex ;
         justify-content: center;
         align-items: center;
         background-color: #0065FC;
-        border:1px #F2F2F2 solid;
+        color:white;
         width: 30px;
         height: 31px;
         padding: 5px;
-        border-top-right-radius: 15px ;
-        border-bottom-right-radius: 15px;
+        border-radius: 15px;
     }
     #ville{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: white;
-        border:1px #F2F2F2 solid;
-        min-width: min-content;
+        border: none;
+        width: auto;
         height: 40px;
     
     }
     form{
-        min-width: min-content;
+        width: min-content;
     }
     input{
-        min-width: min-content;
+        width: min-content;
     }
     #recherche{ display: none;
     }
-    #FILTRES{font-size: large;
+    #FILTRES{
+        font-size: large;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
