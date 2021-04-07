@@ -1,4 +1,4 @@
-@media screen and (max-width: 1420px)
+/*@media screen and (max-width: 1420px)
 {body
     {
         display:flex;background-color:lightblue;
@@ -10,7 +10,7 @@
 
         
     }
-}/*
+}
 #section2{
     display: flex;
     flex-direction: column;
@@ -623,6 +623,7 @@ aside{
         box-shadow: 5px 5px 5px 1px grey ;
         margin: 0px  0px 20px 0px;
         padding: 3px  3px 3px 3px;
+        box-shadow: 4px 4px 5px 1px rgb(185, 185, 185);
     }
     .image1{
         border-radius: 20px ;
@@ -678,6 +679,7 @@ aside{
         height: auto;
         box-shadow: 5px 5px 5px 1px grey ;
         margin: 0px  20px 20px 20px;
+        box-shadow: 4px 4px 5px 1px rgb(185, 185, 185);
     }
     .contain3{
         width: 100%;

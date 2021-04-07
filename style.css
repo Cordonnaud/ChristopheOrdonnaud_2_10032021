@@ -501,7 +501,7 @@ section{
     width: 305px;
     height: max-content;
     margin: 0px 0px 20px 0px;
-    box-shadow: 4px 4px 5px 1px rgb(170, 170, 170);
+    box-shadow: 4px 4px 5px 1px rgb(185, 185, 185);
 }
 .contain3{
     width:305px;
@@ -540,14 +540,14 @@ section{
 }
 .carte1:hover{
     box-shadow: 5px 5px 5px 2px rgb(110, 110, 110);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 .carte2:hover{
     box-shadow: 5px 5px 5px 2px rgb(110, 110, 110);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }.carte3:hover{
     box-shadow: 5px 5px 5px 2px rgb(110, 110, 110);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 /* -----------------------------------------PIED DE PAGE ------------------------------------------*/
 footer{
