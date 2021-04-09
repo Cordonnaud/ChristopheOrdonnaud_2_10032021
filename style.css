@@ -332,7 +332,7 @@ article{
     background-color:#F2F2F2;
     width: 64%;
     min-width: min-content;
-    max-width: auto;
+    max-width:max-content;
     min-height: min-content;
     align-content:center;
     justify-content: center;
@@ -341,7 +341,7 @@ article{
     padding: 0px  0px 0px 0px;
 }
 #heb_titre{
-    margin: 10px  0px 10px 30px;
+    margin: 0px  0px 0px 30px;
     padding: 0px  0px 0px 0px;
 }
 #Hebergements_a_Marseille{
@@ -428,7 +428,9 @@ aside{
 }
 .titre{
     align-self: flex-start;
-    font-size:larger
+    font-size:larger;
+    margin: 20px 0 0 0;
+
 }
 #diag{
     display: flex;
@@ -786,21 +788,21 @@ footer{
     .TITRE{display: flex;
         flex: 1 1 auto;
         width: 90%;
-        align-self:right;
+        align-self:center;
         text-align:left;
         padding: 0px 0px 0px 30px;
         margin: 40px 0px 20px 0px;     
     }
    .SOUSTITRE{
         width: 90%;
-        align-self: right;
+        align-self:center;
         padding: 0px 0px 0px 30px;
         margin: 0px 0px 20px 0px; 
     }
     #LOCALISATION{
         display: flex;
         flex-direction: row;
-        align-self: left;
+        align-self:flex-start;
         justify-content: space-between;
         width: 90%;
         height:auto;
@@ -1279,7 +1281,7 @@ footer{
         display: flex;
         justify-content: flex-end;
         flex-flow: row wrap;
-        align-items:right;
+        align-items:flex-start;
         width: 80%;
         height: auto;
         margin: 0px 0px 0px 0px;
@@ -1471,8 +1473,8 @@ footer{
         font-size: 1.8em; 
         justify-content: center;
         align-self: center;
-        border-bottom: 2px  #0065FC solid;
-        border-top: 2px  #0065FC solid;
+        border-bottom: 2px  grey solid;
+        border-top: 2px  grey solid;
         margin: 10px  0px 30px 0px;
         padding: 20px  0px 20px 0px;
         width: 100%;
@@ -1511,7 +1513,7 @@ footer{
     .image2{
         border-radius: 20px ;
         max-width:100%;
-        max-height:auto;
+        
     }
 
     .contain2{
@@ -1567,7 +1569,7 @@ footer{
         align-items: center;
         margin: 0px  0px 0px 0px;
         padding: 0px  0px 0px 0px;
-        background-color:#d3d3d3;
+        background-color:#F2F2F2;
         border-radius: 0px;
 
     }
@@ -1579,8 +1581,8 @@ footer{
         margin:30px  0px 30px 0px;
         padding: 0px  0px 0px 0px;
         align-self: center;
-        border-bottom: 2px  #0065FC solid;
-        border-top: 2px  #0065FC solid;
+        border-bottom: 2px  grey solid;
+        border-top: 2px  grey solid;
        
         
     }
@@ -1594,8 +1596,7 @@ footer{
         align-items: center;
         margin: 0px  20px 0px 20px;
         padding: 0px  0px 20px 0px;
-        background-color: none;
-        border-radius: none;
+        border-radius: 0px;
     }
     .carte1{
         display: flex;
@@ -1646,15 +1647,16 @@ footer{
         flex-wrap: wrap;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 10px 0px;
-        background-color:#bebebe;
+        background-color:#F2F2F2;
     }
     #Activites_a_Marseille{
         display:flex;
         justify-content: center;
+        text-align: center;
         width: 100%;
         align-self: center;
-        border-bottom: 2px  #0065FC solid;
-        border-top: 2px  #0065FC solid;
+        border-bottom: 2px  grey solid;
+        border-top: 2px  grey solid;
         font-size: 1.2em;
         margin: 30px 0px 20px 0px;
         padding: 0px 0px 0px 0px;
@@ -1715,16 +1717,16 @@ footer{
         border-top-right-radius: 20px;
     }
     #FOOTER{
-        font-size:1.3em;
-        max-width: auto;
+        font-size:1.2rem;
+        max-width: 100%;
         height:auto;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        background-color: #F2F2F2;
+        background-color: #cecece;
         justify-content: space-between;
         margin: 0px 0px 30px 0px;
-        padding: 20px 0px  20px 30px;
+        padding: 20px 25px  20px 30px;
     }
 }
     
