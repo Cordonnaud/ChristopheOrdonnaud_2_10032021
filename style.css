@@ -129,7 +129,7 @@ li{list-style-type: none;
 .TITRE
     {
         width: 100%;
-        font-size: 1.4em;
+        font-size: 1.5rem;
         font-weight: 700;
         margin-bottom: 10px;
         
@@ -137,7 +137,7 @@ li{list-style-type: none;
 .SOUSTITRE{
     
     width: 100%;
-    font-size: 1em;
+    font-size: 1.2rem;
    
 }
 #section1{
@@ -318,13 +318,15 @@ input{
     border-color: #F2F2F2;
     padding: 0px 0px 10px 0px; 
 }/* -----------------------------------------SECTION 2 ------------------------------------------*/
+#sect2{display:none}
 #section2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
     width:100%;
+    height:auto;
     margin: 0px  0px 0px 0px;
-    padding: 0px  0px 0px 0px;
+    padding: 10px  0px 0px 0px;
 }
 article{
     display:flex;
@@ -335,12 +337,14 @@ article{
     max-width:max-content;
     min-height: min-content;
     align-content:center;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 20px;
     margin: 30px  30px 0px 0px;
-    padding: 0px  0px 0px 0px;
+    padding: 20px  0px 0px 0px;
 }
 #heb_titre{
+    font-size: 1.5rem;
+    font-weight:900 ;
     margin: 0px  0px 0px 30px;
     padding: 0px  0px 0px 0px;
 }
@@ -421,18 +425,24 @@ aside{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0px  0px 20px 0px;
   
 }
-#titre_les_popu{
-    display: none;
+#titre_les_populaires{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+   
 }
 .titre{
     align-self: flex-start;
-    font-size:larger;
-    margin: 20px 0 0 0;
+    font-size:1.5rem;
+    font-weight: 900;
+    margin: 0px 0 30px 0;
+    padding: 20px 0px 0px 0px ;
 
 }
 #diag{
+    font-size:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,10 +464,11 @@ aside{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
-.text2 .cotation2{align-self:flex-end;
+.text2 .cotation2{align-self:flex-start;
+    margin: 10px 0 0 0;
 }
 
 .contain2{
@@ -473,10 +484,14 @@ aside{
     display: flex;
     flex-direction: column;
     flex-wrap:nowrap;
+    
     width:210px;
     height:auto;
     align-items:flex-start;
     padding: 15px 20px 15px 20px;  
+}
+.lieu2{font-weight: bold;
+    padding:0 0 10px 0;
 }
 .espace1{
     margin: 8px 0px;
@@ -511,6 +526,7 @@ section{
     padding: 0px 0px 0px 0px;
 }
 #Activites_a_Marseille{
+    font-size: 1rem;
     margin: 20px 0px 20px 0px;
     padding: 20px 0px 20px 0px ;
 }
@@ -785,17 +801,20 @@ footer{
         padding: 0px 0px 0px 0px;
         font-size: 2.5rem;
     }
-    .TITRE{display: flex;
+    .TITRE{
+        display: flex;
         flex: 1 1 auto;
         width: 90%;
         align-self:center;
         text-align:left;
+        font-size: 3.2rem;
         padding: 0px 0px 0px 30px;
         margin: 40px 0px 20px 0px;     
     }
    .SOUSTITRE{
         width: 90%;
         align-self:center;
+        font-size: 2.4rem;
         padding: 0px 0px 0px 30px;
         margin: 0px 0px 20px 0px; 
     }
@@ -1036,7 +1055,6 @@ footer{
         border-top-left-radius: 35px;
         padding:0px ;
         
-        
     }
     .text2{
         flex:2;
@@ -1045,24 +1063,25 @@ footer{
         flex-direction: column;
         flex-wrap:nowrap;
         width: 100%;
-        height: 300px;
+        height: 270px;
         align-items:flex-start;
         padding: 20px 0 15px 40px;
-        text-align: left;
+       
     }
     
     .lieu{
         flex:1;
         max-width: 80%;
         margin: 0px;
-        padding: 0px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
     }
     .tarif{
         flex:1;
-        padding: 0px 0px 10px 0px;
+        padding: 5px 0px 10px 0px;
+    
     }
     .espace{
-        margin: 10px 0px;
+        margin: 0px 0px;
     }
     
     .cotation2{
@@ -1070,14 +1089,14 @@ footer{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-self: flex-end;
-        padding: 0px 0px 0px 10px;
+        align-self: flex-start;
+        padding: 0px 0px 10px 0px;
     }
-    .espace1{
-        margin: 10px 0px;
+    .espace1{display: none;
+        margin: 0px 0px;
     }
     
-   .text2 .cotation2{align-self:flex-end;
+   .text2 .cotation2{align-self:flex-start;
     }
 
     #Hot_le_soldumat{
@@ -1104,9 +1123,9 @@ footer{
         padding: 0px  0px 0px 0px;
     }
     #heb_titre{
-        font-size: 2.2rem;
-        margin: 20px  0px 10px 40px;
-        padding: 0px  0px 0px 0px;
+        font-size: 3rem;
+        margin: 40px  0px 20px 40px;
+        padding: 20px  0px 10px 0px;
         display:flex;
         width:100%;
         justify-content: flex-start;
@@ -1461,30 +1480,29 @@ footer{
     }
  
     #Les_plus_Populaires{
-        display: none;
+        display: flex;
         flex-flow: column nowrap;
         width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 0 0 20px ;
-    }
-    #titre_les_popu{
-        display: flex;
-        font-size: 1.8em; 
         justify-content: center;
-        align-self: center;
+        align-items: center;
+        margin: 10px 0 30px 20px ; 
+        padding: 20px  0px 20px 0px;
         border-bottom: 2px  grey solid;
         border-top: 2px  grey solid;
-        margin: 10px  0px 30px 0px;
-        padding: 20px  0px 20px 0px;
+    }
+    #titre_les_populaires{
+        display:flex;
+        justify-content: center;
+        align-self: center;
         width: 100%;
     
     }
     .titre{
         width:100%;
+        height:auto;
         justify-content: center;
         align-self: center;
-        font-size:1.5em;
+        font-size:2rem;
     }
     #diag{
         display: none;
@@ -1505,14 +1523,16 @@ footer{
         justify-content: space-between ;
         justify-self:center;
     }
+    .tarif2{padding: 10px 0px 0px 0px;}
 
-    .lieu{
+    .lieu2{padding: 10px 0px 10px 0px;
         min-width: min-content;
     }
 
     .image2{
         border-radius: 20px ;
         max-width:100%;
+       
         
     }
 
@@ -1525,7 +1545,7 @@ footer{
     .text2{
         font-size: 1.2em;
         display: flex;
-        width: auto;
+        width: 100%;
         height:auto;
         align-self: center;
         margin: 0px  0px 0px 10px;
@@ -1540,6 +1560,7 @@ footer{
         flex-wrap: wrap;
         flex-direction: row;
         align-self: flex-end;
+        padding: 0 10px 10px 0 ;
     }
 
     #Hot_le_soldumat{
@@ -1574,12 +1595,12 @@ footer{
 
     }
     #heb_titre{
-        font-size: 1.2em;
+        font-size:2rem;
         display:flex;
         width:100%;
         justify-content: center;
         margin:30px  0px 30px 0px;
-        padding: 0px  0px 0px 0px;
+        padding: 20px  0px 20px 0px;
         align-self: center;
         border-bottom: 2px  grey solid;
         border-top: 2px  grey solid;
@@ -1603,7 +1624,7 @@ footer{
         flex-flow: column wrap;
         background-color: white;
         border-radius: 20px;
-        width: 190px;
+        width: 250px;
         height: 200px;
         box-shadow: 5px 5px 5px 1px grey ;
         margin: 20px  0px 0px 0px;
@@ -1624,10 +1645,13 @@ footer{
         display: flex;
         max-width:100%;
         max-height:200px;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-self: flex-end;
-        margin: 0px  0px 10px 0px;
+        margin: 0px  0px 0px 10px;
         padding: 0px 0px 0px 0px; 
+    }
+    .tarif{
+        padding:0px 0px 5px 0px ;
     }
     #Aub_Cann{
         display: flex;
@@ -1636,6 +1660,7 @@ footer{
         justify-content: space-between;
     }
     #Afficher{
+        font-size: 1.5rem;
         display: flex;
         width:100%;
         justify-content: flex-start;
